@@ -11,8 +11,10 @@ public class Cliente {
     private Long id;
     @Column(nullable = false)
     private String razaoSocial;
+
     @Column(nullable = false, length = 15) //not null
     private String cnpj;
+
     private String nomeSocio;
 
     public Long getId() {
